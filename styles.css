@@ -1,4 +1,3 @@
-/*  your css code here. If applicable */
 body {
   margin: 0;
   padding: 0;
@@ -7,16 +6,15 @@ body {
 }
 
 .book-library {
-  width: 320px;
+  width: 300px;
   margin: 20px auto;
   background-color: #ffffff;
   padding: 15px;
-  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.book-library h2 {
+h1 {
   text-align: center;
-  margin-bottom: 15px;
 }
 
 .book {
@@ -29,23 +27,15 @@ body {
 
 .book img {
   width: 100%;
-  height: auto;
-}
-
-.book h3 {
-  margin: 8px 0 4px;
 }
 
 .author {
   color: #777777;
-  font-size: 14px;
-  margin-bottom: 8px;
 }
 
 .price {
   background-color: #2ecc71;
-  color: white;
+  color: #ffffff;
   padding: 6px;
   border-radius: 4px;
-  font-weight: bold;
 }
